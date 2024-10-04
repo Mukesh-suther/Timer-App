@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    text-align: center;
+    line-height: 1;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.countdown_timer{
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.countdown_timer .time{
+    font-size: 50px;
+    font-weight: 600;
+}
+.data_get{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 80%;
+    gap: 10px;
+}
+.data_get input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #3d3d3d;
+    outline: none;
+}
+.data_get button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
